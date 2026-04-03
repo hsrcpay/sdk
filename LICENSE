@@ -1,0 +1,51 @@
+# HSRCPAY API Client License v1.0
+
+Copyright (c) Phine Up LLC  
+All rights reserved.
+
+1. Definitions  
+"Software" means this repository and all files, source code, documentation, examples, and related materials distributed under this license.  
+"Licensor" means Phine Up LLC.  
+"You" means any individual or legal entity using the Software.
+
+1. Limited Grant of Use  
+Subject to full compliance with this license, Licensor grants You a limited, non-exclusive, non-transferable, revocable right to use the Software solely to integrate with and consume HSRCPAY services and APIs for lawful business purposes.
+
+1. Explicitly Permitted  
+You may:
+
+- use the Software internally and in production environments;
+- compile, install, and run the Software as an API client;
+- allow your employees and contractors to use the Software on your behalf, under terms no less restrictive than this license.
+
+1. Explicitly Prohibited  
+You may not, and may not allow any third party to:
+
+- clone, mirror, fork, or publicly host this repository or any substantial part of it;
+- copy, reproduce, publish, distribute, sublicense, sell, lease, or transfer the Software, in whole or in part;
+- create derivative works based on the Software;
+- remove or alter copyright, trademark, or license notices;
+- use Licensor trademarks in a way that implies endorsement without prior written permission.
+
+1. No Open Source Grant  
+This is not an open source license. No rights are granted except those expressly stated in this document.
+
+1. Ownership  
+The Software is licensed, not sold. All intellectual property rights, title, and interest in and to the Software remain exclusively with Licensor and its licensors.
+
+1. Compliance and Termination  
+Any breach of this license automatically terminates all rights granted to You. Upon termination, You must immediately cease use and destroy all copies in your possession or control.
+
+1. Warranty Disclaimer  
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+1. Limitation of Liability  
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES, OR FOR LOSS OF PROFITS, REVENUE, DATA, OR GOODWILL, ARISING FROM OR RELATED TO THE SOFTWARE OR THIS LICENSE.
+
+1. Governing Law  
+This license is governed by the laws of the State of Wyoming, United States, without regard to conflict of law rules.
+
+1. Contact  
+Phine Up LLC  
+Email: <info@hsrcpay.com>  
+Website: <https://hsrcpay.com>

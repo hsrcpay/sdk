@@ -2,8 +2,8 @@
   "name": "@hsrcpay/sdk",
   "version": "0.0.0",
   "description": "Node.js SDK package scaffold for hsrcpay",
-  "license": "UNLICENSED",
-  "author": "hsrcpay",
+  "license": "SEE LICENSE IN ../../LICENSE",
+  "author": "Phine Up LLC",
   "repository": {
     "type": "git",
     "url": "https://github.com/hsrcpay/sdk.git"
@@ -11,8 +11,15 @@
   "bugs": {
     "url": "https://github.com/hsrcpay/sdk/issues"
   },
-  "homepage": "https://github.com/hsrcpay/sdk#readme",
-  "module": "index.ts",
+  "homepage": "https://hsrcpay.com",
+  "module": "src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
   "type": "module",
   "peerDependencies": {
     "typescript": "^5"
