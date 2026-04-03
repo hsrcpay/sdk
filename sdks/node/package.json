@@ -1,6 +1,6 @@
 {
   "name": "@hsrcpay/sdk",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Node.js SDK package scaffold for hsrcpay",
   "license": "SEE LICENSE IN ../../LICENSE",
   "author": {
@@ -16,16 +16,25 @@
     "url": "https://github.com/hsrcpay/sdk/issues"
   },
   "homepage": "https://hsrcpay.com",
-  "module": "src/index.ts",
+  "packageManager": "bun@1.2.8",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
-      "require": "./dist/index.js"
+      "default": "./dist/index.js"
     }
   },
   "type": "module",
-  "peerDependencies": {
-    "typescript": "^5"
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "rm -rf dist && bun build ./src/index.ts --outdir ./dist --target node --format esm && cp ./src/index.d.ts ./dist/index.d.ts"
   }
 }

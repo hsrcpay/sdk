@@ -1,11 +1,21 @@
-# SDK Packages
+# HSRCPAY SDK Dizinleri
 
-Each subfolder represents one language SDK package.
+Bu klasör, HSRCPAY ekosistemindeki dil bazlı SDK paketlerini tek merkezden yönetmek için tasarlanmıştır.
 
-- `node/` npm package (initialized as `@hsrcpay/sdk`)
-- `go/` Go module placeholder
-- `rust/` Rust crate placeholder
-- `java/` Java library placeholder
-- `kotlin/` Kotlin library placeholder
+## Kapsam
 
-For polyrepo migration, move one language folder into its own repository and keep `shared/` as a source-of-truth reference.
+- `node/`: JavaScript/TypeScript ekosistemi için resmi SDK paketi (`@hsrcpay/sdk`)
+- `go/`: Go tabanlı servisler ve backend uygulamaları için SDK alanı
+- `rust/`: Rust tabanlı yüksek performanslı sistemler için SDK alanı
+- `java/`: JVM tabanlı kurumsal uygulamalar için SDK alanı
+- `kotlin/`: Kotlin tabanlı backend ve multiplatform senaryoları için SDK alanı
+
+## Mimari Yaklaşım
+
+- Monorepo düzeni ile ortak standartlar tek noktadan yönetilir.
+- Her SDK dizini ileride bağımsız repoya (polyrepo) taşınabilecek şekilde yapılandırılır.
+- Ortak sözleşmeler ve referanslar `shared/` altında korunur.
+
+## Lisans
+
+Tüm SDK dizinleri kök seviyedeki `LICENSE` dosyasına tabidir.
