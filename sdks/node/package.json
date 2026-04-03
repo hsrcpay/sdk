@@ -1,6 +1,6 @@
 {
   "name": "@hsrcpay/sdk",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Node.js SDK package scaffold for hsrcpay",
   "license": "CUSTOM",
   "author": {
@@ -25,7 +25,7 @@
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "exports": { 
+  "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
@@ -35,6 +35,8 @@
   "type": "module",
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "rm -rf dist && bun build ./src/index.ts --outdir ./dist --target node --format esm && cp ./src/index.d.ts ./dist/index.d.ts"
+    "build": "bun run build:js && bun run build:types",
+    "build:js": "bun build ./src/index.ts --outdir ./dist --target node --format esm --minify",
+    "build:types": "tsc -p tsconfig.build.json"
   }
 }

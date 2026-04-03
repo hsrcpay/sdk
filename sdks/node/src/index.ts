@@ -14,3 +14,15 @@ export const test2: Test = (name: string): string => {
 export const test3: Test = (name: string): string => {
   return `Hello, World!`;
 };
+
+export type User = {
+  id: string;
+  name: string;
+};
+
+export const getUser = async (id: string): Promise<User> => {
+  return {
+    id,
+    name: `User ${id}`,
+  };
+};
