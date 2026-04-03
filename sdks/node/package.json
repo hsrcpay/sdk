@@ -1,8 +1,8 @@
 {
   "name": "@hsrcpay/sdk",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Node.js SDK package scaffold for hsrcpay",
-  "license": "SEE LICENSE IN ../../LICENSE",
+  "license": "CUSTOM",
   "author": {
     "name": "Phine Up LLC",
     "email": "info@phineup.com",
@@ -25,7 +25,7 @@
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "exports": {
+  "exports": { 
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
