@@ -1,0 +1,11 @@
+{
+  "name": "@hsrcpay/sdk",
+  "version": "0.0.0",
+  "description": "Node.js SDK package scaffold for hsrcpay",
+  "license": "UNLICENSED",
+  "module": "index.ts",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
