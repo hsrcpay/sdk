@@ -3,6 +3,15 @@
   "version": "0.0.0",
   "description": "Node.js SDK package scaffold for hsrcpay",
   "license": "UNLICENSED",
+  "author": "hsrcpay",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hsrcpay/sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hsrcpay/sdk/issues"
+  },
+  "homepage": "https://github.com/hsrcpay/sdk#readme",
   "module": "index.ts",
   "type": "module",
   "peerDependencies": {
